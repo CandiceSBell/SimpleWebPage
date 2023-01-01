@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-container {
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 8px;
+}
+
+.navbar-left {
+    display: flex;
+    gap: 1em;
+    margin-left: 100px;
+}
+
+.navbar-left img {
+    width: 250px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 100px;
+    gap:2em;
+}
+
+.navbar-links a {
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;  
+}
+
+.navbar-links a:hover {
+    color: #81d741;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    gap: 1em;
+}
+
+.navbar-right i {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+    color: orange;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: stretch;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+
+.cell img{
+    height: 40%;
+    width: 90%;
+}
+
+.text {
+    padding: 0 20px 20px;
+}
+
+.text h3 {
+    color: #81d741;
+    font-size: 20px;
+    font-weight: 800;    
+    line-height: 34px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.text h3:hover {
+    color:#6aaf36
+}
+
+.text p {
+    color: #666;
+    line-height: 22px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    min-height: 60px;
+    overflow: hidden;
+    height: 110px;
+}
+
+.text a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.text a:hover {
+    color: orange;
+}
+
+.text a span{
+    color: orange;
+}
+
+.text a span:hover {
+    color: #2ea3f2;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    padding: 20px;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+.footer button {
+    display: flex;
+    border: none;
+    background-color: rgb(251, 130, 44);
+    color: white;
+    cursor: pointer;
+    padding-top: 6px;
+    padding-left: 16px;
+    width:45px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    }
+    
+    .footer button:hover {
+    background-color: rgb(202, 104, 34);
+    }
